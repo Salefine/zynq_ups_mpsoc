@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 20 16:42:45 2024
+# Process ID: 14204
+# Current directory: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_hdmi_ctrl_iic_0_synth_1
+# Command line: vivado.exe -log zcu106_hdmi_platform_hdmi_ctrl_iic_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu106_hdmi_platform_hdmi_ctrl_iic_0.tcl
+# Log file: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_hdmi_ctrl_iic_0_synth_1/zcu106_hdmi_platform_hdmi_ctrl_iic_0.vds
+# Journal file: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_hdmi_ctrl_iic_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zcu106_hdmi_platform_hdmi_ctrl_iic_0.tcl -notrace

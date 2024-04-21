@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="35">
+  <CompositeFile CompositeFileTopName="zcu106_hdmi_platform" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1713601820"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1713601820"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1713601820"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1713601820"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_0_0\zcu106_hdmi_platform_axi_interconnect_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_1_0\zcu106_hdmi_platform_axi_interconnect_1_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_2_0\zcu106_hdmi_platform_axi_interconnect_2_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_2"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_3_0\zcu106_hdmi_platform_axi_interconnect_3_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_3"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_4_0\zcu106_hdmi_platform_axi_interconnect_4_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_4"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_clk_wiz_1_0\zcu106_hdmi_platform_clk_wiz_1_0.xci" Type="IP">
+        <Instance HierarchyPath="clk_wiz_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_gnd_const_0\zcu106_hdmi_platform_gnd_const_0.xci" Type="IP">
+        <Instance HierarchyPath="gnd_const"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_interrupts_0\zcu106_hdmi_platform_interrupts_0.xci" Type="IP">
+        <Instance HierarchyPath="interrupts"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_interrupts1_0\zcu106_hdmi_platform_interrupts1_0.xci" Type="IP">
+        <Instance HierarchyPath="interrupts1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_proc_sys_reset_1_0\zcu106_hdmi_platform_proc_sys_reset_1_0.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_rx_hdmi_hb_0_0\zcu106_hdmi_platform_rx_hdmi_hb_0_0.xci" Type="IP">
+        <Instance HierarchyPath="rx_hdmi_hb_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_tx_hdmi_hb_0_0\zcu106_hdmi_platform_tx_hdmi_hb_0_0.xci" Type="IP">
+        <Instance HierarchyPath="tx_hdmi_hb_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_vcc_const_0\zcu106_hdmi_platform_vcc_const_0.xci" Type="IP">
+        <Instance HierarchyPath="vcc_const"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_vcu_0_0\zcu106_hdmi_platform_vcu_0_0.xci" Type="IP">
+        <Instance HierarchyPath="vcu_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_vid_phy_controller_0\zcu106_hdmi_platform_vid_phy_controller_0.xci" Type="IP">
+        <Instance HierarchyPath="vid_phy_controller"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_data_fifo_0_1\zcu106_hdmi_platform_axi_data_fifo_0_1.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/axi_data_fifo_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_tpg_0_VTP_reset_0\zcu106_hdmi_platform_tpg_0_VTP_reset_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/tpg_0_VTP_reset"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_frmbuf_wr_0_1\zcu106_hdmi_platform_v_frmbuf_wr_0_1.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/v_frmbuf_wr_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_tc_1_0\zcu106_hdmi_platform_v_tc_1_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/v_tc_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_tpg_1_0\zcu106_hdmi_platform_v_tpg_1_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/v_tpg_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_vid_in_axi4s_0_0\zcu106_hdmi_platform_v_vid_in_axi4s_0_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/v_vid_in_axi4s_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xlslice_0_0\zcu106_hdmi_platform_xlslice_0_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/xlslice_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_zero_48bit_0\zcu106_hdmi_platform_zero_48bit_0.xci" Type="IP">
+        <Instance HierarchyPath="tpg_input/zero_48bit"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_interconnect_0\zcu106_hdmi_platform_axi_interconnect_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_hdmi_ctrl_iic_0\zcu106_hdmi_platform_hdmi_ctrl_iic_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/hdmi_ctrl_iic"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_proc_sys_reset_0_0\zcu106_hdmi_platform_proc_sys_reset_0_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/proc_sys_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_zynq_ultra_ps_e_0_0\zcu106_hdmi_platform_zynq_ultra_ps_e_0_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/zynq_ultra_ps_e_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xbar_4\zcu106_hdmi_platform_xbar_4.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_mixer_rst_0\zcu106_hdmi_platform_mixer_rst_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_output/mixer_rst"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_frmbuf_rd_0_0\zcu106_hdmi_platform_v_frmbuf_rd_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_output/v_frmbuf_rd_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_hdmi_tx_ss_0_0\zcu106_hdmi_platform_v_hdmi_tx_ss_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_output/v_hdmi_tx_ss_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_mix_0_0\zcu106_hdmi_platform_v_mix_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_output/v_mix_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_axi_data_fifo_0_0\zcu106_hdmi_platform_axi_data_fifo_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_input/axi_data_fifo_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_frmbuf_wr_0_0\zcu106_hdmi_platform_v_frmbuf_wr_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_input/v_frmbuf_wr_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_hdmi_rx_ss_0_0\zcu106_hdmi_platform_v_hdmi_rx_ss_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_input/v_hdmi_rx_ss_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_v_proc_ss_0_0\zcu106_hdmi_platform_v_proc_ss_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_input/v_proc_ss_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xlslice_1_0\zcu106_hdmi_platform_xlslice_1_0.xci" Type="IP">
+        <Instance HierarchyPath="hdmi_input/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_const_vcc_0\zcu106_hdmi_platform_const_vcc_0.xci" Type="IP">
+        <Instance HierarchyPath="gt_refclk_buf/const_vcc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_ibufds_gt_0\zcu106_hdmi_platform_ibufds_gt_0.xci" Type="IP">
+        <Instance HierarchyPath="gt_refclk_buf/ibufds_gt"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_ibufds_gt_odiv2_0\zcu106_hdmi_platform_ibufds_gt_odiv2_0.xci" Type="IP">
+        <Instance HierarchyPath="gt_refclk_buf/ibufds_gt_odiv2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_rx_scaler_reset_0\zcu106_hdmi_platform_rx_scaler_reset_0.xci" Type="IP">
+        <Instance HierarchyPath="gpio_aresetn/rx_scaler_reset"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0\zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0.xci" Type="IP">
+        <Instance HierarchyPath="gpio_aresetn/tx_frmbuf_rd_aresetn_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xbar_3\zcu106_hdmi_platform_xbar_3.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_4/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xbar_2\zcu106_hdmi_platform_xbar_2.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_2/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xbar_1\zcu106_hdmi_platform_xbar_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_1/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_xbar_0\zcu106_hdmi_platform_xbar_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_5\zcu106_hdmi_platform_auto_cc_5.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m10_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_4\zcu106_hdmi_platform_auto_cc_4.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m09_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_3\zcu106_hdmi_platform_auto_cc_3.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m07_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_2\zcu106_hdmi_platform_auto_cc_2.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m06_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_1\zcu106_hdmi_platform_auto_cc_1.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m05_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_cc_0\zcu106_hdmi_platform_auto_cc_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/m03_couplers/auto_cc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_ds_0\zcu106_hdmi_platform_auto_ds_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/s00_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_pc_0\zcu106_hdmi_platform_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="mpsoc_ss/axi_interconnect/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_m00_regslice_2\zcu106_hdmi_platform_m00_regslice_2.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_4/m00_couplers/m00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s01_regslice_2\zcu106_hdmi_platform_s01_regslice_2.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_4/s01_couplers/s01_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s00_regslice_3\zcu106_hdmi_platform_s00_regslice_3.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_4/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s00_regslice_2\zcu106_hdmi_platform_s00_regslice_2.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_3/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_us_0\zcu106_hdmi_platform_auto_us_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_3/s00_couplers/auto_us"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_auto_rs_w_0\zcu106_hdmi_platform_auto_rs_w_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_3/s00_couplers/auto_rs_w"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_m00_regslice_1\zcu106_hdmi_platform_m00_regslice_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_2/m00_couplers/m00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s01_regslice_1\zcu106_hdmi_platform_s01_regslice_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_2/s01_couplers/s01_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s00_regslice_1\zcu106_hdmi_platform_s00_regslice_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_2/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_m00_regslice_0\zcu106_hdmi_platform_m00_regslice_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_1/m00_couplers/m00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s01_regslice_0\zcu106_hdmi_platform_s01_regslice_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_1/s01_couplers/s01_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\zcu106_hdmi_platform_s00_regslice_0\zcu106_hdmi_platform_s00_regslice_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_1/s00_couplers/s00_regslice"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\zcu106_hdmi_platform.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\zcu106_hdmi_platform.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="zcu106_hdmi_platform_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\zcu106_hdmi_platform.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\zcu106_hdmi_platform_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\zcu106_hdmi_platform.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

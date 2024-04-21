@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bd_6ee1_axi_crossbar_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_6ee1_axi_crossbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_ceca_v_hdmi_rx_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_ceca_v_hdmi_rx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_ceca_v_vid_in_axi4s_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_ceca_v_vid_in_axi4s_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_ceca_inverter_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_ceca_inverter_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_vsc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_vsc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_hsc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_hsc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_input_size_set_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_input_size_set_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_rst_axis_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_rst_axis_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_axis_register_slice_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_axis_register_slice_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_axis_fifo_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_axis_fifo_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_xlslice_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_xlslice_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_xlslice_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_xlslice_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_xbar_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_auto_cc_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_auto_cc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_auto_cc_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_auto_cc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_e648_auto_cc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/bd_e648_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_clk_wiz_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_gnd_const_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_gnd_const_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_interrupts_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_interrupts_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_interrupts1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_interrupts1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_proc_sys_reset_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_proc_sys_reset_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="bd_e648_rst_axis_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_rx_hdmi_hb_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_rx_hdmi_hb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_tx_hdmi_hb_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_tx_hdmi_hb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_rx_hdmi_hb_0_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_vcc_const_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcc_const_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_vcu_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcu_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_vid_phy_controller_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vid_phy_controller_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_axi_data_fifo_0_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_axi_data_fifo_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_tpg_0_VTP_reset_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_tpg_0_VTP_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_frmbuf_wr_0_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_frmbuf_wr_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_tc_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_tc_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_tpg_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_tpg_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_vid_in_axi4s_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_vid_in_axi4s_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_xlslice_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xlslice_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_zero_48bit_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_zero_48bit_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_hdmi_ctrl_iic_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_hdmi_ctrl_iic_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_proc_sys_reset_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_xbar_4_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xbar_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_mixer_rst_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_mixer_rst_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_frmbuf_rd_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_frmbuf_rd_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_hdmi_tx_ss_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_6ee1_axi_crossbar_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_v_mix_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_mix_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_axi_data_fifo_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_axi_data_fifo_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_frmbuf_wr_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_frmbuf_wr_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_v_hdmi_rx_ss_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_ceca_v_hdmi_rx_0_synth_1"/>
+		<Parent Id="bd_ceca_v_vid_in_axi4s_0_synth_1"/>
+		<Parent Id="bd_ceca_inverter_1_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_v_proc_ss_0_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_v_proc_ss_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_e648_vsc_0_synth_1"/>
+		<Parent Id="bd_e648_hsc_0_synth_1"/>
+		<Parent Id="bd_e648_input_size_set_0_synth_1"/>
+		<Parent Id="bd_e648_rst_axis_0_synth_1"/>
+		<Parent Id="bd_e648_axis_register_slice_0_0_synth_1"/>
+		<Parent Id="bd_e648_axis_fifo_0_synth_1"/>
+		<Parent Id="bd_e648_xlslice_0_0_synth_1"/>
+		<Parent Id="bd_e648_xlslice_1_0_synth_1"/>
+		<Parent Id="bd_e648_xbar_0_synth_1"/>
+		<Parent Id="bd_e648_auto_cc_2_synth_1"/>
+		<Parent Id="bd_e648_auto_cc_1_synth_1"/>
+		<Parent Id="bd_e648_auto_cc_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_xlslice_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xlslice_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_const_vcc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_const_vcc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_vcc_const_0_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_ibufds_gt_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_rx_scaler_reset_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_rx_scaler_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_xbar_3_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_xbar_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_xbar_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_xbar_2_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_xbar_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_cc_5_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_cc_4_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_cc_3_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_cc_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_cc_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_auto_cc_4_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_auto_cc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_auto_cc_4_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_auto_ds_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_pc_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_m00_regslice_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_m00_regslice_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_s01_regslice_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s01_regslice_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_s00_regslice_3_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s00_regslice_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_s00_regslice_2_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s00_regslice_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_us_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_auto_rs_w_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_auto_rs_w_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_m00_regslice_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_m00_regslice_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_s01_regslice_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s01_regslice_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zcu106_hdmi_platform_s00_regslice_1_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s00_regslice_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_s01_regslice_1_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_m00_regslice_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_m00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_m00_regslice_1_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_s01_regslice_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s01_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_s01_regslice_1_synth_1"/>
+	</Run>
+	<Run Id="zcu106_hdmi_platform_s00_regslice_0_synth_1" LaunchDir="D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_s00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zcu106_hdmi_platform_s01_regslice_1_synth_1"/>
+	</Run>
+</Runs>
+

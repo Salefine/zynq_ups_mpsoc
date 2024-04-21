@@ -1,0 +1,1026 @@
+
+*** Running vivado
+    with args -log zcu106_hdmi_platform_vcu_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu106_hdmi_platform_vcu_0_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source zcu106_hdmi_platform_vcu_0_0.tcl -notrace
+Command: synth_design -top zcu106_hdmi_platform_vcu_0_0 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20688 
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rdata_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:216]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rresp_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:217]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_rvalid_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:218]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_vcu_rready_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:219]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_vcu_arvalid_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:220]
+WARNING: [Synth 8-2611] redeclaration of ansi port lc_pl_arready_axi_lite_apb is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:221]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_gasket_enable is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:273]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_sel is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:300]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_ck_sel is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:301]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_fract_en is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:302]
+WARNING: [Synth 8-2611] redeclaration of ansi port vcu_pll_test_fract_clk_sel is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:303]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_high_enable is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:305]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_low_enable is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:306]
+WARNING: [Synth 8-2611] redeclaration of ansi port trigger_pll_div_change is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:999]
+WARNING: [Synth 8-2611] redeclaration of ansi port pll_div_value is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:1000]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_high_enable is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:1002]
+WARNING: [Synth 8-2611] redeclaration of ansi port clock_low_enable is not allowed [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:1002]
+WARNING: [Synth 8-2507] parameter declaration becomes local in vcu_v1_1_0_vcu with formal parameter declaration list [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:608]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 739.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'zcu106_hdmi_platform_vcu_0_0' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/synth/zcu106_hdmi_platform_vcu_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'vcu_v1_1_0_vcu' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:68]
+	Parameter C_VCU_AXILITEAPB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_VCU_ENC0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_ENC1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_DEC0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_DEC1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_VCU_MCU_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter HDL_PIPELINE_DEPTH bound to: 6 - type: integer 
+	Parameter C_RATIO bound to: 56 - type: integer 
+	Parameter C_RATIO_CORE bound to: 56 - type: integer 
+	Parameter C_ENCB11_CORE42_IN bound to: 16 - type: integer 
+	Parameter C_ENCB11_CORE42_OUT bound to: 6 - type: integer 
+	Parameter C_ENCA33_CORE39 bound to: 24 - type: integer 
+	Parameter C_ENCA32_CORE38 bound to: 24 - type: integer 
+	Parameter C_ENCA12_CORE18 bound to: 24 - type: integer 
+	Parameter C_ENCA31_CORE37 bound to: 24 - type: integer 
+	Parameter C_ENCA13_CORE19 bound to: 22 - type: integer 
+	Parameter C_ENCA11_CORE17 bound to: 22 - type: integer 
+	Parameter C_GPU31_CORE22 bound to: 0 - type: integer 
+	Parameter C_IOU19_CORE12 bound to: 0 - type: integer 
+	Parameter C_IOU17_CORE13 bound to: 0 - type: integer 
+	Parameter C_IOU18_CORE16 bound to: 0 - type: integer 
+	Parameter C_CORE21_DEC15 bound to: 24 - type: integer 
+	Parameter C_CORE40_DEC35 bound to: 24 - type: integer 
+	Parameter C_CORE41_DEC34 bound to: 24 - type: integer 
+	Parameter C_CORE20_DEC36 bound to: 23 - type: integer 
+	Parameter ENABLEENCODER bound to: TRUE - type: string 
+	Parameter ENABLEDECODER bound to: TRUE - type: string 
+	Parameter ENCODERCODING bound to: H.265 - type: string 
+	Parameter DECODERCODING bound to: H.265 - type: string 
+	Parameter ENCODERCODINGTYPE bound to: INTRA_ONLY - type: string 
+	Parameter DECODERCODINGTYPE bound to: INTRA_ONLY - type: string 
+	Parameter ENCHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter ENCVERRESOLUTION bound to: 2160 - type: integer 
+	Parameter DECHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter DECVERRESOLUTION bound to: 2160 - type: integer 
+	Parameter ENCODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter DECODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter ENCODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter DECODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter CORECLKFREQ bound to: 667 - type: integer 
+	Parameter ENCODERNUMCORES bound to: 4 - type: integer 
+	Parameter DECODERNUMCORES bound to: 2 - type: integer 
+	Parameter HDL_TEST_PORT_EN bound to: 0 - type: integer 
+	Parameter HDL_VCU_TEST_EN bound to: 0 - type: integer 
+	Parameter HDL_ENCODER_EN bound to: 1 - type: integer 
+	Parameter HDL_DECODER_EN bound to: 1 - type: integer 
+	Parameter HDL_TABLE_NO bound to: 2 - type: integer 
+	Parameter HDL_MEM_DEPTH bound to: 41120 - type: integer 
+	Parameter HDL_RAM_TYPE bound to: 0 - type: integer 
+	Parameter HDL_PLL_BYPASS bound to: 0 - type: integer 
+	Parameter HDL_MEMORY_SIZE bound to: 2 - type: integer 
+	Parameter HDL_COLOR_DEPTH bound to: 0 - type: integer 
+	Parameter HDL_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_COLOR_FORMAT bound to: 0 - type: integer 
+	Parameter HDL_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_CODING_TYPE bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_EN bound to: 1 - type: integer 
+	Parameter HDL_FPS bound to: 60 - type: integer 
+	Parameter HDL_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_MCU_CLK bound to: 444 - type: integer 
+	Parameter HDL_PLL_CLK_HI bound to: 33 - type: integer 
+	Parameter HDL_PLL_CLK_LO bound to: 32 - type: integer 
+	Parameter HDL_CORE_CLK bound to: 667 - type: integer 
+	Parameter HDL_NUM_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_MAX_NUM_CORES bound to: 0 - type: integer 
+	Parameter HDL_NUM_CONCURRENT_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_DEC_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_DEC_FPS bound to: 60 - type: integer 
+	Parameter HDL_DEC_CODING_TYPE bound to: 0 - type: integer 
+	Parameter HDL_DEC_COLOR_DEPTH bound to: 1 - type: integer 
+	Parameter HDL_DEC_COLOR_FORMAT bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_MANUAL_OVERRIDE bound to: 0 - type: integer 
+	Parameter HDL_ENC_BUFFER_MOTION_VEC_RANGE bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_B_FRAME bound to: 1 - type: integer 
+	Parameter HDL_WPP_EN bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_CLK bound to: 333 - type: integer 
+	Parameter HDL_AXI_MCU_CLK bound to: 331 - type: integer 
+	Parameter HDL_AXI_ENC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_BASE bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_RANGE bound to: 0 - type: integer 
+	Parameter log2_C_RAM_DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_spram' [D:/tools/xilinx/Vivado/2018.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:7033]
+	Parameter MEMORY_SIZE bound to: 10526720 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: ultra - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WRITE_DATA_WIDTH_A bound to: 256 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 256 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 16 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 6 - type: integer 
+	Parameter WRITE_MODE_A bound to: write_first - type: string 
+	Parameter P_MEMORY_PRIMITIVE bound to: 3 - type: integer 
+	Parameter P_CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter P_ECC_MODE bound to: 0 - type: integer 
+	Parameter P_WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter P_WRITE_MODE_A bound to: 0 - type: integer 
+	Parameter P_MEMORY_OPTIMIZATION bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [D:/tools/xilinx/Vivado/2018.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 0 - type: integer 
+	Parameter MEMORY_SIZE bound to: 10526720 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 3 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 256 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 256 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 16 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 6 - type: integer 
+	Parameter WRITE_MODE_A bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 256 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 256 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 6 - type: integer 
+	Parameter WRITE_MODE_B bound to: 0 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: ultra - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 256 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 256 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 256 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 256 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 41120 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 256 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 256 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 16 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 16 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 16 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 16 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 256 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_a.gen_douta_pipe.ena_pipe_reg[4] was removed.  [D:/tools/xilinx/Vivado/2018.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:2086]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (1#1) [D:/tools/xilinx/Vivado/2018.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_spram' (2#1) [D:/tools/xilinx/Vivado/2018.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:7033]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in1' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:742]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in2' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:743]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in3' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:744]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in4' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:745]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in5' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:746]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in6' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:747]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in7' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:748]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in8' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:749]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in9' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:750]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in10' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:751]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in11' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:752]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in12' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:753]
+WARNING: [Synth 8-6104] Input port 'pl_vcu_spare_port_in13' has an internal driver [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:754]
+INFO: [Synth 8-6157] synthesizing module 'VCU' [D:/tools/xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:52082]
+	Parameter CORECLKREQ bound to: 667 - type: integer 
+	Parameter DECHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter DECODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter DECODERCODING bound to: H.265 - type: string 
+	Parameter DECODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter DECODERNUMCORES bound to: 2 - type: integer 
+	Parameter DECVERTRESOLUTION bound to: 2160 - type: integer 
+	Parameter ENABLEDECODER bound to: TRUE - type: string 
+	Parameter ENABLEENCODER bound to: TRUE - type: string 
+	Parameter ENCHORRESOLUTION bound to: 3840 - type: integer 
+	Parameter ENCODERCHROMAFORMAT bound to: 4_2_2 - type: string 
+	Parameter ENCODERCODING bound to: H.265 - type: string 
+	Parameter ENCODERCOLORDEPTH bound to: 10 - type: integer 
+	Parameter ENCODERNUMCORES bound to: 4 - type: integer 
+	Parameter ENCVERTRESOLUTION bound to: 2160 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'VCU' (3#1) [D:/tools/xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:52082]
+WARNING: [Synth 8-689] width (16) of port connection 'VCUPLENCALL2CADDR' does not match port width (17) of module 'VCU' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:1508]
+INFO: [Synth 8-6157] synthesizing module 'vcu_v1_1_0_registers' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:60]
+	Parameter C_VCU_AXILITEAPB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter HDL_TEST_PORT_EN bound to: 0 - type: integer 
+	Parameter HDL_ENCODER_EN bound to: 1 - type: integer 
+	Parameter HDL_DECODER_EN bound to: 1 - type: integer 
+	Parameter HDL_TABLE_NO bound to: 2 - type: integer 
+	Parameter HDL_MEM_DEPTH bound to: 41120 - type: integer 
+	Parameter HDL_RAM_TYPE bound to: 0 - type: integer 
+	Parameter HDL_PLL_BYPASS bound to: 0 - type: integer 
+	Parameter HDL_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_MEMORY_SIZE bound to: 2 - type: integer 
+	Parameter HDL_COLOR_DEPTH bound to: 0 - type: integer 
+	Parameter HDL_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_COLOR_FORMAT bound to: 0 - type: integer 
+	Parameter HDL_FPS bound to: 60 - type: integer 
+	Parameter HDL_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_CODING_TYPE bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_EN bound to: 1 - type: integer 
+	Parameter HDL_MCU_CLK bound to: 444 - type: integer 
+	Parameter HDL_PLL_CLK_HI bound to: 33 - type: integer 
+	Parameter HDL_PLL_CLK_LO bound to: 32 - type: integer 
+	Parameter HDL_CORE_CLK bound to: 667 - type: integer 
+	Parameter HDL_NUM_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_MAX_NUM_CORES bound to: 0 - type: integer 
+	Parameter HDL_NUM_CONCURRENT_STREAMS bound to: 0 - type: integer 
+	Parameter HDL_DEC_VIDEO_STANDARD bound to: 0 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_X bound to: 3840 - type: integer 
+	Parameter HDL_DEC_FRAME_SIZE_Y bound to: 2160 - type: integer 
+	Parameter HDL_DEC_FPS bound to: 60 - type: integer 
+	Parameter HDL_ENC_BUFFER_MANUAL_OVERRIDE bound to: 0 - type: integer 
+	Parameter HDL_ENC_BUFFER_MOTION_VEC_RANGE bound to: 1 - type: integer 
+	Parameter HDL_ENC_BUFFER_B_FRAME bound to: 1 - type: integer 
+	Parameter HDL_WPP_EN bound to: 0 - type: integer 
+	Parameter HDL_VCU_TEST_EN bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_CLK bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_CLK bound to: 333 - type: integer 
+	Parameter HDL_AXI_MCU_CLK bound to: 331 - type: integer 
+	Parameter HDL_AXI_ENC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_BASE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_BASE bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_ENC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE0 bound to: 0 - type: integer 
+	Parameter HDL_AXI_DEC_RANGE1 bound to: 0 - type: integer 
+	Parameter HDL_AXI_MCU_RANGE bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:292]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:293]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:294]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:295]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:296]
+WARNING: [Synth 8-567] referenced signal 'vcu_reset_capture' should be on the sensitivity list [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:482]
+WARNING: [Synth 8-567] referenced signal 'vcu_gasket_enable' should be on the sensitivity list [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:482]
+WARNING: [Synth 8-567] referenced signal 'num_concurrent_streams' should be on the sensitivity list [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:482]
+WARNING: [Synth 8-567] referenced signal 'num_streams' should be on the sensitivity list [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:482]
+WARNING: [Synth 8-6014] Unused sequential element hm_bvalid_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:605]
+WARNING: [Synth 8-6014] Unused sequential element mcu_wt_snoop_addr_pll_change_low_enc_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:328]
+WARNING: [Synth 8-6014] Unused sequential element mcu_wt_snoop_addr_pll_change_low_dec_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:329]
+WARNING: [Synth 8-6014] Unused sequential element mcu_wt_snoop_addr_pll_change_hi_enc_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:328]
+WARNING: [Synth 8-6014] Unused sequential element mcu_wt_snoop_addr_pll_change_hi_dec_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:329]
+WARNING: [Synth 8-6014] Unused sequential element pll_div_change_done_reg_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:782]
+INFO: [Synth 8-4471] merging register 'sip_rresp_r_reg[1:0]' into 'lc_bresp_reg[1:0]' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:736]
+WARNING: [Synth 8-6014] Unused sequential element rd_addr_lc_capture_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:530]
+WARNING: [Synth 8-6014] Unused sequential element disable_mcp_patch_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:531]
+WARNING: [Synth 8-6014] Unused sequential element sip_rresp_r_reg was removed.  [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:736]
+INFO: [Synth 8-6155] done synthesizing module 'vcu_v1_1_0_registers' (4#1) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/c788/hdl/vcu_v1_1_syn_rfs.v:60]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+WARNING: [Synth 8-3848] Net refclk in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:397]
+WARNING: [Synth 8-3848] Net sys1xclk in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:398]
+WARNING: [Synth 8-3848] Net systemrst_refclk_b in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:399]
+WARNING: [Synth 8-3848] Net systemrst_b in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:400]
+WARNING: [Synth 8-3848] Net CONFIG_LOOP_OUT in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:404]
+WARNING: [Synth 8-3848] Net ENCB11_CORE42_OUT_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:406]
+WARNING: [Synth 8-3848] Net ENCB11_CORE42_OUT_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:407]
+WARNING: [Synth 8-3848] Net ENCA33_CORE39_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:408]
+WARNING: [Synth 8-3848] Net ENCA33_CORE39_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:409]
+WARNING: [Synth 8-3848] Net ENCA12_CORE18_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:410]
+WARNING: [Synth 8-3848] Net ENCA12_CORE18_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:411]
+WARNING: [Synth 8-3848] Net ENCA31_CORE37_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:412]
+WARNING: [Synth 8-3848] Net ENCA31_CORE37_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:413]
+WARNING: [Synth 8-3848] Net CORE41_DEC34_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:414]
+WARNING: [Synth 8-3848] Net CORE41_DEC34_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:415]
+WARNING: [Synth 8-3848] Net CORE20_DEC36_P in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:416]
+WARNING: [Synth 8-3848] Net CORE20_DEC36_N in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:417]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out1 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:446]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out2 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:447]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out3 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:448]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out4 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:449]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out5 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:450]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out6 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:451]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out7 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:452]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out8 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:453]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out9 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:454]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out10 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:455]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out11 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:456]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out12 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:457]
+WARNING: [Synth 8-3848] Net vcu_pl_spare_port_out13 in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:458]
+WARNING: [Synth 8-3848] Net vcu_pl_mcu_venc_debug_tdo in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:494]
+WARNING: [Synth 8-3848] Net vcu_pl_mcu_vdec_debug_tdo in module/entity vcu_v1_1_0_vcu does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:505]
+INFO: [Synth 8-6155] done synthesizing module 'vcu_v1_1_0_vcu' (5#1) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/vcu_v1_1_0_vcu.v:68]
+WARNING: [Synth 8-350] instance 'inst' of module 'vcu_v1_1_0_vcu' requires 312 connections, but only 285 given [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/synth/zcu106_hdmi_platform_vcu_0_0.v:812]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'zcu106_hdmi_platform_vcu_0_0' (6#1) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/synth/zcu106_hdmi_platform_vcu_0_0.v:60]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port core_clk
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port m_axi_mcu_aclk
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port pl_vcu_arprot_axi_lite_apb[2]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port pl_vcu_arprot_axi_lite_apb[1]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port pl_vcu_arprot_axi_lite_apb[0]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_core_status_clk_pll
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_status_clk_pll
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[43]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[42]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[41]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[40]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[39]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[38]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[37]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[36]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[35]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[34]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[33]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[32]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[31]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[30]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[29]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[28]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[27]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[26]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[25]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[24]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[23]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[22]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[21]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[20]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[19]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[18]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[17]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[16]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[15]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[14]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[13]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[12]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[11]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[10]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[9]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[8]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[7]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[6]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[5]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[4]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[3]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[2]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[1]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awaddr[0]
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port vcu_pl_mcu_m_axi_ic_dc_awvalid
+WARNING: [Synth 8-3331] design vcu_v1_1_0_registers has unconnected port pl_vcu_mcu_m_axi_ic_dc_awready
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port sleep
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port injectsbiterra
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port injectdbiterra
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port clkb
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port rstb
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port enb
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port regceb
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port web[0]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[15]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[14]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[13]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[12]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[11]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[10]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[9]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[8]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[7]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[6]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[5]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[4]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[3]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[2]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[1]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port addrb[0]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[255]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[254]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[253]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[252]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[251]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[250]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[249]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[248]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[247]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[246]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[245]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[244]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[243]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[242]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[241]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[240]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[239]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[238]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[237]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[236]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[235]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[234]
+WARNING: [Synth 8-3331] design xpm_memory_base has unconnected port dinb[233]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 739.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 739.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 739.055 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/zcu106_hdmi_platform_vcu_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/zcu106_hdmi_platform_vcu_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcu_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcu_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/constraints/vcu.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/constraints/vcu.xdc] for cell 'inst'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.230 . Memory (MB): peak = 1653.762 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1653.762 ; gain = 914.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1653.762 ; gain = 914.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcu_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1653.762 ; gain = 914.707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'cState_reg' in module 'vcu_v1_1_0_registers'
+INFO: [Synth 8-5544] ROM "sm_waddr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sm_waddr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wt_addr_lc_capture" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "decoded_reg" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5780] Default cascade height of 8 will be used for URAM 'gen_wr_a.gen_word_narrow.mem_reg'.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                 iSTATE5 |                              000 |                             0000
+                 iSTATE5 |                              000 |                             0000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'cState_reg' using encoding 'sequential' in module 'vcu_v1_1_0_registers'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:55 . Memory (MB): peak = 1653.762 ; gain = 914.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	              320 Bit    Registers := 4     
+	              256 Bit    Registers := 6     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 17    
++---RAMs : 
+	           10280K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input    318 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	  14 Input     32 Bit        Muxes := 1     
+	  17 Input     32 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module xpm_memory_base 
+Detailed RTL Component Info : 
++---Registers : 
+	              256 Bit    Registers := 6     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	           10280K Bit         RAMs := 1     
+Module vcu_v1_1_0_registers 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	  14 Input     32 Bit        Muxes := 1     
+	  17 Input     32 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 2     
+Module vcu_v1_1_0_vcu 
+Detailed RTL Component Info : 
++---Registers : 
+	              320 Bit    Registers := 4     
+	               16 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    318 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5780] Default cascade height of 8 will be used for URAM 'gen_wr_a.gen_word_narrow.mem_reg'.
+INFO: [Synth 8-5780] Default cascade height of 8 will be used for URAM 'gen_wr_a.gen_word_narrow.mem_reg'.
+INFO: [Synth 8-5813] UltraRAM gen_wr_a.gen_word_narrow.mem_reg: Pipeline stages found = 4; Recommended pipeline stages =10
+INFO: [Synth 8-5816] Retiming module `partition_GROUP`
+	Optimizing at the module level
+	Optimizing locally to improve critical paths(may not reduce worst delay)
+
+	Effective logic levels on critical path after retiming is: 0
+	Total number of crtical paths = 0
+	Numbers of forward move = 0, and backward move = 20
+
+
+INFO: [Synth 8-5816] Retiming module `partition_GROUP' done
+
+
+INFO: [Synth 8-5814] Pipeline result for URAM (gen_wr_a.gen_word_narrow.mem_reg): Matrix size= (2 cols x 8 rows) | Pipeline stages => ( available = 4, absorbed = 4 )
+INFO: [Synth 8-3886] merging instance 'inst/shift_reg_reg[0]' (FDR) to 'inst/vcu_pl_enc_al_l2c_rvalid_r1_reg'
+INFO: [Synth 8-3886] merging instance 'inst/shift_reg_reg[1]' (FDR) to 'inst/vcu_pl_enc_al_l2c_rvalid_r2_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[68] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[69] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[78] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[79] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[88] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[89] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[98] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[99] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[108] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[109] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[118] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[119] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[128] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[129] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[138] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[139] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[148] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[149] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[158] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[159] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[168] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[169] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[178] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[179] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[188] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[189] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[198] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[199] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[208] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[209] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[218] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[219] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[228] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[229] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[238] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[239] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[248] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[249] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[258] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[259] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[268] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[269] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[278] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[279] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[288] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[289] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[298] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[299] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[308] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[309] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[318] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\pl_vcu_enc_al_l2c_rdata_r1_reg[319] )
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[12]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[13]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[14]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[16]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[17]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[18]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[19]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[20]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[21]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[22]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[23]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[24]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[25]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[26]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[27]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[28]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[29]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/soft_ip_reg_capture_r_reg[30]' (FDRE) to 'inst/softip_regs/soft_ip_reg_capture_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\softip_regs/soft_ip_reg_capture_r_reg[31] )
+INFO: [Synth 8-3886] merging instance 'inst/softip_regs/lc_bresp_reg[0]' (FD) to 'inst/softip_regs/lc_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\softip_regs/lc_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (gen_rd_a.gen_douta_pipe.ena_pipe_reg[0]) is unused and will be removed from module xpm_memory_base.
+WARNING: [Synth 8-3332] Sequential element (gen_rd_a.gen_douta_pipe.ena_pipe_reg[1]) is unused and will be removed from module xpm_memory_base.
+WARNING: [Synth 8-3332] Sequential element (gen_rd_a.gen_douta_pipe.ena_pipe_reg[2]) is unused and will be removed from module xpm_memory_base.
+WARNING: [Synth 8-3332] Sequential element (gen_rd_a.gen_douta_pipe.ena_pipe_reg[3]) is unused and will be removed from module xpm_memory_base.
+WARNING: [Synth 8-3332] Sequential element (softip_regs/lc_bresp_reg[1]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (softip_regs/soft_ip_reg_capture_r_reg[31]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[319]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[318]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[309]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[308]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[299]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[298]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[289]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[288]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[279]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[278]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[269]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[268]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[259]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[258]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[249]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[248]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[239]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[238]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[229]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[228]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[219]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[218]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[209]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[208]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[199]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[198]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[189]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[188]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[179]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[178]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[169]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[168]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[159]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[158]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[149]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[148]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[139]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[138]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[129]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[128]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[119]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[118]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[109]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[108]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[99]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[98]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[89]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[88]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[79]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[78]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[69]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[68]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[59]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[58]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[49]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[48]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[39]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[38]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[29]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[28]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[19]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[18]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[9]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r1_reg[8]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[319]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[318]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[309]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[308]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[299]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[298]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[289]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[288]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[279]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[278]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[269]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[268]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[259]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[258]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[249]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[248]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[239]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[238]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[229]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[228]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[219]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[218]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[209]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[208]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[199]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[198]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[189]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[188]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[179]) is unused and will be removed from module vcu_v1_1_0_vcu.
+WARNING: [Synth 8-3332] Sequential element (pl_vcu_enc_al_l2c_rdata_r2_reg[178]) is unused and will be removed from module vcu_v1_1_0_vcu.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:01:01 . Memory (MB): peak = 1653.762 ; gain = 914.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Ultra RAM: Preliminary Mapping  Report (see note below)
++------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|Module Name                               | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | URAM288 | Matrix Shape | FF provided for Pipeline | FF absorbed | 
++------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+|inst/\mem_uram_8bps/xpm_memory_base_inst  | gen_wr_a.gen_word_narrow.mem_reg | 64 K x 256             | W | R |                        |   |   | Port A           | 44      | 8x2          | 4                        | 4           | 
++------------------------------------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+---------+--------------+--------------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Ultra RAMs at the current stage of the synthesis flow. Some Ultra RAMs may be reimplemented as non Ultra RAM primitives later in the synthesis flow. Multiple instantiated Ultra RAMs are reported only once. Fields "FF provided for Pipeline" and "FF absorbed" respectively indicate number of registers available for pipelining and number of registers absorbed in the URAM matrix for pipelining. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:50 . Memory (MB): peak = 2492.766 ; gain = 1753.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:52 . Memory (MB): peak = 2521.363 ; gain = 1782.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:34 ; elapsed = 00:01:55 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:36 ; elapsed = 00:01:57 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:36 ; elapsed = 00:01:57 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:36 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:36 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:36 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------+------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name    | RTL Name         | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------+------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|vcu_v1_1_0_vcu | shift_reg_reg[9] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++---------------+------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |LUT1      |     3|
+|2     |LUT2      |    33|
+|3     |LUT3      |    89|
+|4     |LUT4      |    10|
+|5     |LUT5      |   276|
+|6     |LUT6      |    33|
+|7     |SRL16E    |     1|
+|8     |URAM288   |     4|
+|9     |URAM288_1 |    16|
+|10    |URAM288_2 |    12|
+|11    |URAM288_3 |     8|
+|12    |URAM288_4 |     4|
+|13    |VCU       |     1|
+|14    |FDRE      |  1358|
+|15    |FDSE      |     1|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------------+---------------------+------+
+|      |Instance                   |Module               |Cells |
++------+---------------------------+---------------------+------+
+|1     |top                        |                     |  1849|
+|2     |  inst                     |vcu_v1_1_0_vcu       |  1849|
+|3     |    mem_uram_8bps          |xpm_memory_spram     |   565|
+|4     |      xpm_memory_base_inst |xpm_memory_base      |   564|
+|5     |    softip_regs            |vcu_v1_1_0_registers |   208|
++------+---------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1232 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:37 . Memory (MB): peak = 2534.766 ; gain = 881.004
+Synthesis Optimization Complete : Time (s): cpu = 00:01:37 ; elapsed = 00:01:58 . Memory (MB): peak = 2534.766 ; gain = 1795.711
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+134 Infos, 279 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:02:03 . Memory (MB): peak = 2555.141 ; gain = 1816.086
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_vcu_0_0_synth_1/zcu106_hdmi_platform_vcu_0_0.dcp' has been generated.

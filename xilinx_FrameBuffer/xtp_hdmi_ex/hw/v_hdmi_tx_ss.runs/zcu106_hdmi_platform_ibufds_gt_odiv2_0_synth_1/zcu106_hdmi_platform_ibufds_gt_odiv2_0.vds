@@ -1,0 +1,326 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 20 16:36:44 2024
+# Process ID: 18344
+# Current directory: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1
+# Command line: vivado.exe -log zcu106_hdmi_platform_ibufds_gt_odiv2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zcu106_hdmi_platform_ibufds_gt_odiv2_0.tcl
+# Log file: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/zcu106_hdmi_platform_ibufds_gt_odiv2_0.vds
+# Journal file: D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zcu106_hdmi_platform_ibufds_gt_odiv2_0.tcl -notrace
+Command: synth_design -top zcu106_hdmi_platform_ibufds_gt_odiv2_0 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6368 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 740.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'zcu106_hdmi_platform_ibufds_gt_odiv2_0' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/synth/zcu106_hdmi_platform_ibufds_gt_odiv2_0.vhd:68]
+	Parameter C_BUF_TYPE bound to: BUFG_GT - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'util_ds_buf' declared at 'd:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:71' bound to instance 'U0' of component 'util_ds_buf' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/synth/zcu106_hdmi_platform_ibufds_gt_odiv2_0.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'util_ds_buf' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:128]
+	Parameter C_BUF_TYPE bound to: BUFG_GT - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'BUFG_GT_U' to cell 'BUFG_GT' [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:360]
+WARNING: [Synth 8-3848] Net IBUF_OUT in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:80]
+WARNING: [Synth 8-3848] Net IBUF_DS_ODIV2 in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:81]
+WARNING: [Synth 8-3848] Net OBUF_DS_P in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:85]
+WARNING: [Synth 8-3848] Net OBUF_DS_N in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:86]
+WARNING: [Synth 8-3848] Net IOBUF_IO_O in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:93]
+WARNING: [Synth 8-3848] Net BUFG_O in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:100]
+WARNING: [Synth 8-3848] Net BUFGCE_O in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:105]
+WARNING: [Synth 8-3848] Net BUFH_O in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:109]
+WARNING: [Synth 8-3848] Net BUFHCE_O in module/entity util_ds_buf does not have driver. [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'util_ds_buf' (1#1) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/util_ds_buf.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'zcu106_hdmi_platform_ibufds_gt_odiv2_0' (2#1) [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/synth/zcu106_hdmi_platform_ibufds_gt_odiv2_0.vhd:68]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_OUT[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_ODIV2[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_IO[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_IN[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_T[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_CE[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 740.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 740.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 740.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0_board.xdc] for cell 'U0'
+Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0.xdc] for cell 'U0'
+Parsing XDC File [D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-252] The BUFG_GT instance 'U0/USE_BUFG_GT.GEN_BUFG_GT[0].BUFG_GT_U' has DIV pins that are not constant, so the automatically derived generated clock will use a worst case divide of 1.
+INFO: [Timing 38-2] Deriving generated clocks
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1614.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 1614.258 ; gain = 873.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 1614.258 ; gain = 873.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 1614.258 ; gain = 873.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:43 . Memory (MB): peak = 1614.258 ; gain = 873.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_OUT[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_ODIV2[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_IO[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_IN[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_T[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_CE[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 1614.258 ; gain = 873.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:22 ; elapsed = 00:01:41 . Memory (MB): peak = 2238.566 ; gain = 1498.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:22 ; elapsed = 00:01:41 . Memory (MB): peak = 2238.566 ; gain = 1498.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:22 ; elapsed = 00:01:41 . Memory (MB): peak = 2238.566 ; gain = 1498.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG_GT |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |     1|
+|2     |  U0     |util_ds_buf |     1|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:21 . Memory (MB): peak = 2240.066 ; gain = 625.809
+Synthesis Optimization Complete : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2240.066 ; gain = 1499.750
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-441] Inserted BUFG_GT_SYNC BUFG_GT_SYNC for BUFG_GT U0/USE_BUFG_GT.GEN_BUFG_GT[0].BUFG_GT_U
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:26 ; elapsed = 00:01:45 . Memory (MB): peak = 2283.965 ; gain = 1543.648
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/zcu106_hdmi_platform_ibufds_gt_odiv2_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/zcu106_hdmi_platform_ibufds_gt_odiv2_0.xci
+INFO: [Common 17-1381] The checkpoint 'D:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.runs/zcu106_hdmi_platform_ibufds_gt_odiv2_0_synth_1/zcu106_hdmi_platform_ibufds_gt_odiv2_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file zcu106_hdmi_platform_ibufds_gt_odiv2_0_utilization_synth.rpt -pb zcu106_hdmi_platform_ibufds_gt_odiv2_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.247 . Memory (MB): peak = 2288.285 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 20 16:39:06 2024...

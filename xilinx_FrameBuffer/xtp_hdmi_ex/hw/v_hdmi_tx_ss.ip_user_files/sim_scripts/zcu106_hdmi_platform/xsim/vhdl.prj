@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_proc_sys_reset_1_0/sim/zcu106_hdmi_platform_proc_sys_reset_1_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_tc_1_0/sim/zcu106_hdmi_platform_v_tc_1_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_hdmi_ctrl_iic_0/sim/zcu106_hdmi_platform_hdmi_ctrl_iic_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_proc_sys_reset_0_0/sim/zcu106_hdmi_platform_proc_sys_reset_0_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/ip/ip_1/sim/bd_6ee1_v_tc_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_5/sim/bd_e648_rst_axis_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_6/sim/bd_e648_reset_sel_axis_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_0/util_ds_buf.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_0/sim/zcu106_hdmi_platform_ibufds_gt_0.vhd" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_ibufds_gt_odiv2_0/sim/zcu106_hdmi_platform_ibufds_gt_odiv2_0.vhd" \
+
+nosort

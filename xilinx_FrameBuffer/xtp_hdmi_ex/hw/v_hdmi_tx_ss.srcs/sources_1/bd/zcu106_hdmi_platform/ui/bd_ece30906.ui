@@ -1,0 +1,163 @@
+{
+   ExpandedHierarchyInLayout: "",
+   comment_0: "Zynq UltraScale+ VCU TRD",
+   commentid: "comment_0|",
+   font_comment_0: "14",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port SI5319_LOL -pg 1 -y 2380 -defaultsOSRD
+preplace port RX_REFCLK_N -pg 1 -y 2880 -defaultsOSRD
+preplace port DRU_CLK -pg 1 -y 2470 -defaultsOSRD
+preplace port HDMI_TX_CLK_P -pg 1 -y 2700 -defaultsOSRD
+preplace port TX_REFCLK_N -pg 1 -y 2400 -defaultsOSRD
+preplace port TX_HPD -pg 1 -y 1560 -defaultsOSRD
+preplace port RX_REFCLK_P -pg 1 -y 2860 -defaultsOSRD
+preplace port LED0 -pg 1 -y 1350 -defaultsOSRD
+preplace port HDMI_CTRL_IIC -pg 1 -y 920 -defaultsOSRD
+preplace port si570_user -pg 1 -y 460 -defaultsOSRD
+preplace port TX_REFCLK_P -pg 1 -y 2420 -defaultsOSRD
+preplace port HDMI_RX_CLK_N -pg 1 -y 2520 -defaultsOSRD
+preplace port HDMI_RX_CLK_P -pg 1 -y 2360 -defaultsOSRD
+preplace port LED6 -pg 1 -y 2790 -defaultsOSRD
+preplace port RX_DDC -pg 1 -y 2450 -defaultsOSRD
+preplace port RX_DET -pg 1 -y 2240 -defaultsOSRD
+preplace port LED7 -pg 1 -y 2610 -defaultsOSRD
+preplace port TX_DDC -pg 1 -y 1330 -defaultsOSRD
+preplace port HDMI_TX_CLK_N -pg 1 -y 2720 -defaultsOSRD
+preplace portBus TX_EN -pg 1 -y 2940 -defaultsOSRD
+preplace portBus LED1 -pg 1 -y 2990 -defaultsOSRD
+preplace portBus HDMI_TX_DAT_N -pg 1 -y 2900 -defaultsOSRD
+preplace portBus HDMI_RX_DAT_N -pg 1 -y 2540 -defaultsOSRD
+preplace portBus LED2 -pg 1 -y 3010 -defaultsOSRD
+preplace portBus LED3 -pg 1 -y 3030 -defaultsOSRD
+preplace portBus HDMI_TX_DAT_P -pg 1 -y 2920 -defaultsOSRD
+preplace portBus HDMI_RX_DAT_P -pg 1 -y 2560 -defaultsOSRD
+preplace portBus LED4 -pg 1 -y 3050 -defaultsOSRD
+preplace portBus SI5319_RST -pg 1 -y 1160 -defaultsOSRD
+preplace portBus LED5 -pg 1 -y 3070 -defaultsOSRD
+preplace portBus RX_HPD -pg 1 -y 2680 -defaultsOSRD
+preplace inst axi_interconnect_4 -pg 1 -lvl 4 -y 1010 -defaultsOSRD
+preplace inst gnd_const -pg 1 -lvl 5 -y 3070 -defaultsOSRD
+preplace inst mpsoc_ss -pg 1 -lvl 5 -y 1080 -defaultsOSRD
+preplace inst hdmi_output -pg 1 -lvl 3 -y 1480 -defaultsOSRD
+preplace inst tpg_input -pg 1 -lvl 3 -y 1130 -defaultsOSRD
+preplace inst vid_phy_controller -pg 1 -lvl 2 -y 2510 -defaultsOSRD
+preplace inst rx_hdmi_hb_0 -pg 1 -lvl 5 -y 2610 -defaultsOSRD
+preplace inst hdmi_input -pg 1 -lvl 3 -y 2490 -defaultsOSRD
+preplace inst tx_hdmi_hb_0 -pg 1 -lvl 5 -y 2790 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 2 -y 550 -defaultsOSRD
+preplace inst vcu_0 -pg 1 -lvl 3 -y 430 -defaultsOSRD
+preplace inst interrupts -pg 1 -lvl 4 -y 2120 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -y 1660 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -y 460 -defaultsOSRD
+preplace inst vcc_const -pg 1 -lvl 5 -y 2970 -defaultsOSRD
+preplace inst interrupts1 -pg 1 -lvl 4 -y 1200 -defaultsOSRD
+preplace inst gpio_aresetn -pg 1 -lvl 2 -y 2090 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst axi_interconnect_2 -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace inst gt_refclk_buf -pg 1 -lvl 1 -y 2470 -defaultsOSRD
+preplace inst axi_interconnect_3 -pg 1 -lvl 4 -y 710 -defaultsOSRD
+preplace netloc mpsoc_ss_M06_AXI 1 2 4 1000 2280 NJ 2280 NJ 2280 2280
+preplace netloc vid_phy_controller_vid_phy_rx_axi4s_ch2 1 2 1 N
+preplace netloc mpsoc_ss_M08_AXI_0 1 2 4 1000 830 NJ 830 NJ 830 2260
+preplace netloc clk_100M 1 1 5 380 2780 820 2780 NJ 2780 1860 1290 2210
+preplace netloc net_vid_phy_controller_tx_video_clk 1 2 1 830
+preplace netloc RX_DET 1 0 3 NJ 2240 NJ 2240 880J
+preplace netloc mpsoc_ss_M09_AXI_0 1 2 4 980 850 NJ 850 NJ 850 2230
+preplace netloc rx_video_clk 1 2 1 840
+preplace netloc hdmi_output_m_axi_mm_video7_0 1 3 1 N
+preplace netloc SI5319_LOL 1 0 2 NJ 2380 NJ
+preplace netloc gnd 1 5 1 2260J
+preplace netloc vcu_0_M_AXI_ENC0 1 3 1 1420
+preplace netloc mpsoc_ss_M07_AXI_0 1 2 4 970 840 NJ 840 NJ 840 2210
+preplace netloc gpio 1 1 5 360 2150 930 1260 1430J 1290 1840J 1310 2230
+preplace netloc mpsoc_ss_iic2intc_irpt 1 3 3 1480 2250 NJ 2250 2250
+preplace netloc vcu_0_M_AXI_ENC1 1 3 1 1420
+preplace netloc hdmi_input_irq 1 3 1 1460
+preplace netloc S01_AXI_1 1 3 1 1340
+preplace netloc HDMI_RX_CLK_N 1 0 2 20J 2530 320J
+preplace netloc hdmi_output_m_axi_mm_video_0 1 3 1 1440
+preplace netloc axi_interconnect_1_M00_AXI 1 4 1 1860
+preplace netloc HDMI_RX_CLK_P 1 0 2 NJ 2360 330J
+preplace netloc pl_ps_irq1_1 1 4 1 1800J
+preplace netloc hdmi_output_m_axi_mm_video6_0 1 3 1 N
+preplace netloc vcu_0_vcu_host_interrupt 1 3 1 1400
+preplace netloc hdmi_output_m_axi_mm_video1_0 1 3 1 N
+preplace netloc hdmi_output_m_axi_mm_video2_0 1 3 1 N
+preplace netloc TX_DDC 1 3 3 1410J 1310 1800J 1330 NJ
+preplace netloc axi_interconnect_4_M00_AXI 1 4 1 1850
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 910 1770 1470 1260 1820J
+preplace netloc gpio_0 1 2 1 870
+preplace netloc HDMI_RX_DAT_N 1 0 2 NJ 2540 330J
+preplace netloc TX_REFCLK_N 1 0 2 20J 2390 310J
+preplace netloc SB_STATUS_IN_1 1 2 3 890 2770 NJ 2770 NJ
+preplace netloc gpio_1 1 2 1 850
+preplace netloc HDMI_RX_DAT_P 1 0 2 NJ 2560 340J
+preplace netloc TX_REFCLK_P 1 0 2 30J 2400 NJ
+preplace netloc axi_interconnect_3_M00_AXI 1 4 1 1830
+preplace netloc mpsoc_ss_M01_AXI 1 2 4 980 2260 NJ 2260 NJ 2260 2300
+preplace netloc vcc 1 1 5 320 2910 NJ 2910 NJ 2910 NJ 2910 2210
+preplace netloc RX_DDC 1 3 3 NJ 2450 NJ 2450 NJ
+preplace netloc mpsoc_ss_M03_AXI 1 2 4 990 2270 NJ 2270 NJ 2270 2290
+preplace netloc mpsoc_ss_M10_AXI_0 1 2 4 990 860 NJ 860 NJ 860 2220
+preplace netloc DRU_CLK 1 0 1 NJ
+preplace netloc intf_net_zynq_ss_0_M00_AXI 1 1 5 310 1680 NJ 1680 1450J 1330 1780J 1350 2270
+preplace netloc mpsoc_ss_M11_AXI_0 1 2 4 1000 980 1450J 1280 1850J 1300 2240
+preplace netloc LED0 1 3 3 1430J 1320 1790J 1340 2310J
+preplace netloc RX_REFCLK_N 1 2 4 790J 2880 NJ 2880 NJ 2880 NJ
+preplace netloc hdmi_input_interrupt 1 3 1 1440
+preplace netloc Net 1 1 4 320 450 900 990 1460 1270 1860J
+preplace netloc HDMI_CTRL_IIC 1 5 1 NJ
+preplace netloc hdmi_output_m_axi_mm_video4_0 1 3 1 N
+preplace netloc clk_wiz_1_locked 1 1 1 310
+preplace netloc RX_REFCLK_P 1 2 4 800J 2870 NJ 2870 NJ 2870 2260J
+preplace netloc rxoutclk 1 1 4 370 2800 810 2720 NJ 2720 1870
+preplace netloc hdmi_input_M_AXI 1 3 1 1420
+preplace netloc aresetn_100M 1 1 5 360 2230 940 1270 1410J 1300 1820J 1320 2310
+preplace netloc mpsoc_ss_M05_AXI 1 2 4 960 310 NJ 310 NJ 310 2240
+preplace netloc HDMI_TX_DAT_N 1 2 4 770J 2890 NJ 2890 NJ 2890 2290J
+preplace netloc CLK_IN1_D_0_2 1 0 1 NJ
+preplace netloc vcu_0_M_AXI_DEC0 1 3 1 1340
+preplace netloc vcu_0_M_AXI_DEC1 1 3 1 1400
+preplace netloc LED6 1 5 1 NJ
+preplace netloc HDMI_TX_DAT_P 1 2 4 760J 2900 NJ 2900 NJ 2900 2240J
+preplace netloc RX_HPD 1 3 3 1370J 2690 NJ 2690 2260J
+preplace netloc LED7 1 5 1 NJ
+preplace netloc clk_wiz_1_clk_out1 1 1 2 NJ 430 N
+preplace netloc hdmi_output_interrupt_mixer 1 3 1 1370
+preplace netloc hdmi_output_interrupt 1 3 1 1390
+preplace netloc mpsoc_ss_M02_AXI 1 2 4 950 300 NJ 300 NJ 300 2250
+preplace netloc xlconcat_dout 1 4 1 1830
+preplace netloc vid_phy_controller_vid_phy_status_sb_rx 1 2 3 920 2690 1340J 2680 1820J
+preplace netloc HDMI_TX_CLK_N 1 2 4 830J 2710 NJ 2710 NJ 2710 2260J
+preplace netloc hdmi_output_LINK_DATA0 1 1 3 320 2000 NJ 2000 1360
+preplace netloc hdmi_output_m_axi_mm_video3_0 1 3 1 N
+preplace netloc hdmi_output_LINK_DATA1 1 1 3 330 2010 NJ 2010 1350
+preplace netloc mpsoc_ss_pl_resetn0_0 1 1 5 320 650 920 1990 NJ 1990 NJ 1990 2220
+preplace netloc txoutclk 1 1 4 350 2790 860 2730 NJ 2730 1800
+preplace netloc hdmi_output_LINK_DATA2 1 1 3 340 2020 NJ 2020 1340
+preplace netloc HDMI_TX_CLK_P 1 2 4 850J 2700 NJ 2700 NJ 2700 NJ
+preplace netloc gt_efclk_buf_BUFG_GT_O 1 1 1 310
+preplace netloc tpg_input_interrupt 1 3 1 1430
+preplace netloc vid_phy_controller_vid_phy_rx_axi4s_ch0 1 2 1 N
+preplace netloc hdmi_output_irq 1 3 1 1380
+preplace netloc hdmi_output_m_axi_mm_video5_0 1 3 1 N
+preplace netloc TX_HPD 1 0 3 NJ 1560 NJ 1560 NJ
+preplace netloc vid_phy_controller_vid_phy_rx_axi4s_ch1 1 2 1 N
+preplace netloc vid_phy_controller_irq 1 2 2 780J 2740 1470
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 1810
+preplace netloc S00_AXI_1 1 3 1 1480
+preplace netloc gt_efclk_buf_IBUF_OUT 1 1 1 N
+preplace netloc S_AXI_HP3_FPD_0_1 1 4 1 1870
+preplace cgraphic comment_0 place top 0 170 textcolor 4 linecolor 3
+levelinfo -pg 1 0 170 570 1170 1630 2040 2330 -top 0 -bot 3130
+",
+   linktoobj_comment_0: "",
+   linktotype_comment_0: "bd_design",
+}
+{
+   da_zynq_ultra_ps_e_cnt: "1",
+}
+{
+   /comment_0: "comment_0",
+}

@@ -1,0 +1,122 @@
+verilog xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_clk_wiz_1_0/zcu106_hdmi_platform_clk_wiz_1_0_clk_wiz.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_clk_wiz_1_0/zcu106_hdmi_platform_clk_wiz_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_gnd_const_0/sim/zcu106_hdmi_platform_gnd_const_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_interrupts_0/sim/zcu106_hdmi_platform_interrupts_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_interrupts1_0/sim/zcu106_hdmi_platform_interrupts1_0.v" \
+"../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/feef/sources_1/new/hdmi_hb.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_rx_hdmi_hb_0_0/sim/zcu106_hdmi_platform_rx_hdmi_hb_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_tx_hdmi_hb_0_0/sim/zcu106_hdmi_platform_tx_hdmi_hb_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcc_const_0/sim/zcu106_hdmi_platform_vcc_const_0.v" \
+"d:/xilinx_prj/xilinx_FrameBuffer/xtp_hdmi_ex/hw/v_hdmi_tx_ss/v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vcu_0_0/zcu106_hdmi_platform_vcu_0_0_sim_netlist.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/ip_0/sim/gtwizard_ultrascale_v1_7_gthe4_channel.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/ip_0/sim/zcu106_hdmi_platform_vid_phy_controller_0_gtwrapper_gthe4_channel_wrapper.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/ip_0/sim/zcu106_hdmi_platform_vid_phy_controller_0_gtwrapper_gtwizard_gthe4.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/ip_0/sim/zcu106_hdmi_platform_vid_phy_controller_0_gtwrapper_gtwizard_top.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/ip_0/sim/zcu106_hdmi_platform_vid_phy_controller_0_gtwrapper.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gtxe2_hdmi_txaln.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gtxe2_hdmi_xcvr.v" \
+
+sv xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_clkdet.sv" \
+
+verilog xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gt_usrclk_source.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gt_usrclk_source_8series.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_CLOCK_MODULE.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_CLOCK_MODULE_8series.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_plle2_drp.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_mmcme2_drp.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_mmcme3_drp.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gthe4_common.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/hdl/src/verilog/zcu106_hdmi_platform_vid_phy_controller_0_gtwrapper_gthe4_common_wrapper.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/synth/vid_phy_controller_v2_2_0_defs.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/synth/zcu106_hdmi_platform_vid_phy_controller_0_top.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_vid_phy_controller_0/sim/zcu106_hdmi_platform_vid_phy_controller_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_axi_data_fifo_0_1/sim/zcu106_hdmi_platform_axi_data_fifo_0_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_tpg_0_VTP_reset_0/sim/zcu106_hdmi_platform_tpg_0_VTP_reset_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_frmbuf_wr_0_1/sim/zcu106_hdmi_platform_v_frmbuf_wr_0_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_tpg_1_0/sim/zcu106_hdmi_platform_v_tpg_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_vid_in_axi4s_0_0/sim/zcu106_hdmi_platform_v_vid_in_axi4s_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xlslice_0_0/sim/zcu106_hdmi_platform_xlslice_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_zero_48bit_0/sim/zcu106_hdmi_platform_zero_48bit_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_zynq_ultra_ps_e_0_0/sim/zcu106_hdmi_platform_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xbar_4/sim/zcu106_hdmi_platform_xbar_4.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_mixer_rst_0/sim/zcu106_hdmi_platform_mixer_rst_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_frmbuf_rd_0_0/sim/zcu106_hdmi_platform_v_frmbuf_rd_0_0.v" \
+
+sv xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/ip/ip_0/sim/bd_6ee1_v_hdmi_tx_0.sv" \
+
+verilog xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/ip/ip_2/sim/bd_6ee1_v_axi4s_vid_out_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/ip/ip_3/sim/bd_6ee1_util_vector_logic_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/ip/ip_4/sim/bd_6ee1_axi_crossbar_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/bd_0/sim/bd_6ee1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0/sim/zcu106_hdmi_platform_v_hdmi_tx_ss_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_mix_0_0/sim/zcu106_hdmi_platform_v_mix_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_axi_data_fifo_0_0/sim/zcu106_hdmi_platform_axi_data_fifo_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_frmbuf_wr_0_0/sim/zcu106_hdmi_platform_v_frmbuf_wr_0_0.v" \
+
+sv xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0/bd_0/ip/ip_0/sim/bd_ceca_v_hdmi_rx_0.sv" \
+
+verilog xil_defaultlib --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/4903" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/472d/hdl/src/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ec67/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/02c8/hdl/verilog" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/ad7b/hdl" --include "../../../../v_hdmi_tx_ss.srcs/sources_1/bd/zcu106_hdmi_platform/ipshared/0ab1/hdl" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0/bd_0/ip/ip_1/sim/bd_ceca_v_vid_in_axi4s_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0/bd_0/ip/ip_2/sim/bd_ceca_inverter_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0/bd_0/sim/bd_ceca.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0/sim/zcu106_hdmi_platform_v_hdmi_rx_ss_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_2/sim/bd_e648_vsc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_3/sim/bd_e648_hsc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tdata_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tuser_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tstrb_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tkeep_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tid_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tdest_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/tlast_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/hdl/top_bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_4/sim/bd_e648_input_size_set_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_7/sim/bd_e648_axis_register_slice_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_8/sim/bd_e648_axis_fifo_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_9/sim/bd_e648_xlslice_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_10/sim/bd_e648_xlslice_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_1/sim/bd_e648_xbar_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_13/sim/bd_e648_auto_cc_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_12/sim/bd_e648_auto_cc_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/ip/ip_11/sim/bd_e648_auto_cc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/bd_0/sim/bd_e648.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_v_proc_ss_0_0/sim/zcu106_hdmi_platform_v_proc_ss_0_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xlslice_1_0/sim/zcu106_hdmi_platform_xlslice_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_const_vcc_0/sim/zcu106_hdmi_platform_const_vcc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_rx_scaler_reset_0/sim/zcu106_hdmi_platform_rx_scaler_reset_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0/sim/zcu106_hdmi_platform_tx_frmbuf_rd_aresetn_1_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xbar_3/sim/zcu106_hdmi_platform_xbar_3.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xbar_2/sim/zcu106_hdmi_platform_xbar_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xbar_1/sim/zcu106_hdmi_platform_xbar_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_xbar_0/sim/zcu106_hdmi_platform_xbar_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_5/sim/zcu106_hdmi_platform_auto_cc_5.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_4/sim/zcu106_hdmi_platform_auto_cc_4.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_3/sim/zcu106_hdmi_platform_auto_cc_3.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_2/sim/zcu106_hdmi_platform_auto_cc_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_1/sim/zcu106_hdmi_platform_auto_cc_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_cc_0/sim/zcu106_hdmi_platform_auto_cc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_ds_0/sim/zcu106_hdmi_platform_auto_ds_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_pc_0/sim/zcu106_hdmi_platform_auto_pc_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_m00_regslice_2/sim/zcu106_hdmi_platform_m00_regslice_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s01_regslice_2/sim/zcu106_hdmi_platform_s01_regslice_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s00_regslice_3/sim/zcu106_hdmi_platform_s00_regslice_3.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s00_regslice_2/sim/zcu106_hdmi_platform_s00_regslice_2.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_us_0/sim/zcu106_hdmi_platform_auto_us_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_auto_rs_w_0/sim/zcu106_hdmi_platform_auto_rs_w_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_m00_regslice_1/sim/zcu106_hdmi_platform_m00_regslice_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s01_regslice_1/sim/zcu106_hdmi_platform_s01_regslice_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s00_regslice_1/sim/zcu106_hdmi_platform_s00_regslice_1.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_m00_regslice_0/sim/zcu106_hdmi_platform_m00_regslice_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s01_regslice_0/sim/zcu106_hdmi_platform_s01_regslice_0.v" \
+"../../../bd/zcu106_hdmi_platform/ip/zcu106_hdmi_platform_s00_regslice_0/sim/zcu106_hdmi_platform_s00_regslice_0.v" \
+"../../../bd/zcu106_hdmi_platform/sim/zcu106_hdmi_platform.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

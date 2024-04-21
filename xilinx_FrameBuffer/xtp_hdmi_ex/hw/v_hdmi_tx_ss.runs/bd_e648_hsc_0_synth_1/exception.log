@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\xilinx_prj\xilinx_FrameBuffer\xtp_hdmi_ex\hw\v_hdmi_tx_ss\v_hdmi_tx_ss.runs\bd_e648_hsc_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 没有权限
